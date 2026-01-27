@@ -40,7 +40,7 @@ history = cv.run(
 )
 
 # plot
-# cv.plot_history('accuracy')
+# cv.plot_history()
 
 stopped_epochs = [fold['stopped_epoch'] for fold in history]
 optimal_epochs = int(np.mean(stopped_epochs))
