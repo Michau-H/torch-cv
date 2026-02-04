@@ -1,8 +1,7 @@
 # TorchResearchCV
 #### PyTorch cross validation framework designed for research in small dataset with binary classification.
 
-When dataset is small and you have to sacriface some of data for test dataset, sometimes it is to high cost to divide train dataset into train and validation. 
-In such situation `TorchResearchCV` is very helpful to find the best architecture and the optimal number of epochs, allowing you to eventually train the final model on 100% of your data.
+When a dataset is small and you have to sacrifice some data for a test set, sometimes the cost of dividing the training set into train and validation is too high. In such a situation, `TorchResearchCV` is very helpful to find the best architecture and the optimal number of epochs, allowing you to eventually train the final model on 100% of your data.
 
 ---
 
